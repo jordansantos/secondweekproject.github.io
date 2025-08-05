@@ -65,9 +65,11 @@ main {
   display: grid;
   grid-template-columns: 40% 40%;
   justify-content: center;
+  row-gap: 20px;
 }
 
 .container_image {
+  align-items: center;
   width: 80%;
 }
 
